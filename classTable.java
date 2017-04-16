@@ -1,5 +1,6 @@
 import java.util.*;
 
+/** Binary Search Tree implementation for ADT */
 class Table <K,E>
 
 {
@@ -19,6 +20,7 @@ private E get (K key)
 	return (E) data [index];
 }
 
+/** Use sequential search to find the element to remove */
 public E remove (K key)
 
 {
